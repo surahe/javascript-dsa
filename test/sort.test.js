@@ -4,7 +4,7 @@ import insertionSort from '../src/algorithms/sorting/insertionSort'
 import quickSort from '../src/algorithms/sorting/quickSort'
 import QuickSortInPlace from '../src/algorithms/sorting/QuickSortInPlace'
 
-import sortingTestsHelper  from './sorting_tests_helper'
+import sortingTestsHelper from './sorting_tests_helper'
 
 describe('冒泡排序', () => {
   test('排列给定的数组', () => {

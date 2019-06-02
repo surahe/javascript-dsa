@@ -1,4 +1,4 @@
-function quickSort(arr) {
+function quickSort (arr) {
   // 递归出口
   if (arr.length < 2) return arr
 
@@ -15,7 +15,7 @@ function quickSort(arr) {
   }
 
   // quickSort(left).concat(pivotValue,quickSort(right))
-  return [...quickSort(left), pivotValue, ...quickSort(right)] 
+  return [...quickSort(left), pivotValue, ...quickSort(right)]
 }
 
 export default quickSort
